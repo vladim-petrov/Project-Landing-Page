@@ -10,7 +10,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 200px;
+    padding: 20px 200px; /* Try to set the side padding of 200 in body later */
     background-color: #1f2937;
     align-items: center;
 }
@@ -21,12 +21,56 @@ font-size: 24px;
 font-weight: bold;
 }
 
-.header-links ul{
+.header-links ul, a{
     margin: 0;
     padding: 0;
     display: flex;
     list-style: none;
+    text-decoration: none;
     gap: 20px;
-    color: #f9faf8;
+    color: #e5e7eb;
     
+}
+
+.hero {
+    display: flex;
+    padding: 60px 200px;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    gap: 500px;
+}
+
+.hero-h1 h1 {
+    font-size: 48px;
+    font-weight: bold; 
+    margin: 0;
+    color: #f9faf8;
+}
+
+.hero-p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-img img {
+    display: flex;
+    width: 600px;
+    height: 300px;
+}
+
+.hero-button {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: 0;
+    padding: 8px 25px;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-button:active {
+    background-color: #f9faf8;
+    color: #3882f6;
 }
