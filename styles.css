@@ -37,7 +37,10 @@ font-weight: bold;
     background-color: #1f2937;
     justify-content: space-between;
     align-items: center;
-    gap: 500px;
+}
+
+.hero-left {
+    margin-right: 100px;
 }
 
 .hero-h1 h1 {
@@ -53,9 +56,8 @@ font-weight: bold;
 }
 
 .hero-img img {
-    display: flex;
-    width: 600px;
-    height: 300px;
+    width: 100%;
+    max-width: 600px;
 }
 
 .hero-button {
@@ -93,7 +95,8 @@ font-weight: bold;
     padding: 0px 200px 100px;
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 100px;
+    flex-wrap: wrap;
 }
 
 .item-1, .item-2, .item-3, .item-4 {
