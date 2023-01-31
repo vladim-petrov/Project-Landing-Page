@@ -161,3 +161,14 @@ font-weight: bold;
 .CTA-container button {
     border: 1px solid #f9faf8;
 }
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 40px 0;
+}
+
+.footer p{
+    text-align: center;
+    margin: 0;
+}
