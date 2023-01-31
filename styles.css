@@ -59,12 +59,11 @@ font-weight: bold;
 }
 
 .hero-button {
-    color: #e5e7eb;
+    color: #f9faf8;
     background-color: #3882f6;
     border: 0;
     padding: 8px 25px;
     border-radius: 8px;
-    color: #f9faf8;
     font-weight: bold;
     cursor: pointer;
 }
@@ -128,6 +127,37 @@ font-weight: bold;
     gap: 15px;
 }
 .author {
- align-self: flex-end;
- font-weight: bold;
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.CTA-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 100px;
+}
+
+.CTA-container {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    flex-basis: 1000px;
+    justify-content: space-evenly;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.CTA-text p:first-child {
+    font-weight: bold;
+}
+
+.CTA-text p {
+    margin: 0;
+    color: #f9faf8;
+}
+
+.CTA-container button {
+    border: 1px solid #f9faf8;
 }
