@@ -4,8 +4,8 @@ Starting from scratch, the goal was to recreate the following Landing Page given
 
 ___
 
-<img src="/home/vladimir/repos/Project-Landing-Page/01.png" height="400px">
-<img src="/home/vladimir/repos/Project-Landing-Page/02.png" height="400px">
+<img src="https://github.com/vladim-petrov/Project-Landing-Page/blob/main/01.png" height="400px">
+<img src="https://github.com/vladim-petrov/Project-Landing-Page/blob/main/02.png" height="400px">
 
 ___
 
